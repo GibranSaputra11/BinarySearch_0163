@@ -74,6 +74,10 @@ void binarySearch(){
         return; //step 5.b
     }
 
+    if (x < arr[mid]){ // step 6 :  If desired element < arr[mid]
+        high = mid - 1; // step 6.a : Set upperbound = mid – 1
+    }
+
 }
 
 int main(){
