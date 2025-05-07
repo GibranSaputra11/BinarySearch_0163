@@ -66,7 +66,7 @@ void binarySearch(){
 
     int low = 0; //step 2
     int high = n - 1; //step 3
-
+do{
     int mid = (low + high) / 2; // step 4
 
     if (arr[mid] == x){ //step 5
@@ -81,7 +81,7 @@ void binarySearch(){
     if (x > arr[mid]){ // step 7 :  If desired element > arr[mid]:
         low = mid + 1; // step 7.a : Set lowerbound = mid + 1
     }
-
+}while (low <= high); // step 8 : If lowerbound <= upperbound, Go to step 4
 }
 
 int main(){
