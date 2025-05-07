@@ -57,6 +57,17 @@ void display(){
     }
 }
 
+void binarySearch(){
+    char ulang;
+    cout << "\n=======================\n";
+    cout << "Pencarian Binary Search\n";
+    cout << "=======================\n";
+    cin >> x; //step 1
+
+    int low = 0; //step 2
+    int high = n - 1; //step 3
+}
+
 int main(){
     
 }
