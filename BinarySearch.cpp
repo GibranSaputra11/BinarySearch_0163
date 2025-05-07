@@ -82,6 +82,10 @@ do{
         low = mid + 1; // step 7.a : Set lowerbound = mid + 1
     }
 }while (low <= high); // step 8 : If lowerbound <= upperbound, Go to step 4
+
+if (low > high){ // step 9 : Display “Not Found”
+    cout << "\n[❎] Elemen " << x << " tidak ditemukan dalam array. \n" ;
+}
 }
 
 int main(){
