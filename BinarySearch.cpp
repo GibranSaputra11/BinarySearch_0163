@@ -93,5 +93,8 @@ cin >> ulang;
 }
 
 int main(){
-    
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
 }
