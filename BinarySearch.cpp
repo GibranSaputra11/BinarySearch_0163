@@ -59,6 +59,7 @@ void display(){
 
 void binarySearch(){
     char ulang;
+    do{
     cout << "\n=======================\n";
     cout << "Pencarian Binary Search\n";
     cout << "=======================\n";
@@ -86,6 +87,9 @@ do{
 if (low > high){ // step 9 : Display “Not Found”
     cout << "\n[❎] Elemen " << x << " tidak ditemukan dalam array. \n" ;
 }
+cout << "Ingin mencari lagi ?? (y/n) : ";
+cin >> ulang;
+}while (ulang == 'y'  || ulang == 'Y'); 
 }
 
 int main(){
